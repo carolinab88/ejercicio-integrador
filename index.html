@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Proyecto front</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <header>
+    <nav class="navbar container-fluid bg-dark menu ">
+      <div class="logo">
+        <a class="navbar-brand text-white" href="#">
+          <img src="imagenes/codoacodo.png" alt="Logo" width="100" height="65" class="d-inline-block align-text-center" >
+          Conf Bs AS
+        </a>
+      </div>
+      <div class="navbar-expand-lg menu-derecha ">       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand text-light " href="#">La conferencia</a>
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link active text-white-50" aria-current="page" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Conviertete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-success" >Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="caja">
+       <img src="imagenes/hawaii.jpg " alt="">
+       <div class="intro">
+        <h1>Conf Bs AS</h1>
+        <p>
+         Bs AS llega por primera vez a Argentina. Un evnto para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. VEn a conocer a miembros del evento, a otros estudiantes de codo a codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!
+        </p>
+       <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+       <button type="button" class="btn btn-success">Comprar Ticket</button>  
+      </div> 
+    </div>
+    <h2 class="text-center fs-6" >conoce a los<br>
+       <span class="fs-2">ORADORES</span></h2>
+  <div class="tarjeta  ">
+  <div class="card -md " style="width: 25rem;">
+    <img src="imagenes/steve.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button type="button"class="btn btn-warning p-0">Javascript</button>
+      <button type="button"class="btn btn-info p-0">React</button>
+      <h4>Steve Jobs</h4>
+    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam iste fugiat adipisci, quis molestiae alias obcaecati perspiciatis rerum, amet beatae aut. Voluptas vel odit quia placeat accusamus magni autem explicabo.</p>
+    </div>
+  </div>
+  <div class="card -md " style="width: 25rem;">
+    <img src="imagenes/bill.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button type="button"class="btn btn-warning p-0">Javascript</button>
+      <button type="button"class="btn btn-info p-0">React</button>
+      <h4>Bill Gates</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse voluptatem debitis, hic doloremque repudiandae dolorum consectetur a aspernatur omnis expedita fugit, nam vero maxime provident ullam accusamus ab ut.</p>
+    </div>
+  </div>
+  <div class="card -md" style="width: 25rem;">
+    <img src="imagenes/ada.jpeg" class="card-img-top  " alt="...">
+    <div class="card-body ">
+      <button type="button"class="btn btn-secondary p-0">Javascript</button>
+      <button type="button"class="btn btn-danger p-0">React</button>
+      <h4>Ada Lovelace</h4>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, autem! Saepe, rerum provident. Labore nulla nam quidem error facere cupiditate, officiis sint id similique? Itaque mollitia modi ad commodi totam.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md">
+    <img src="imagenes/honolulu.jpg" style="width:100%; " alt="honolulu">
+  </div>
+  <div class="col-md  bg-dark text-light p-4 " >
+    <h4>Bs As-Octubre</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis laudantium mollitia in maxime. Praesentium eos doloribus ut, corporis magnam ad possimus quia consectetur qui facere maiores repellat tenetur at sunt.</p>
+    <button type="button" class="btn btn-outline-light ">Conoce mas</button>
+  </div>
+</div>
+<h4 class="text-center fs-6 mt-4">Conviertete en un <br> <span class="fs-2">ORADOR</span></h4>
+<p class="text-center">Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</p>
+<form action="" class="col-6 mx-auto">
+  <input type="text " placeholder="Nombre" style="width: 48%;" class="me-2" >
+  <input type="text" placeholder="Apellido"style="width: 48%;" class="ms-3">
+  <br>
+  <textarea class="my-3 p-2" name="" id="" cols="150" rows="5" style="width: 100%;" placeholder="Sobre que quieres hablar?"></textarea>
+  <p class="text-left fw-light">Recuerda incluir un titulo para tu charla</p>
+  <input type="submit" class="enviar text-light col-12 mx-auto">
+</form>
+  </main>
+  <footer>
+    <ul class=" nav justify-content-center mt-2 p-3 " >
+      <li class="nav-item">
+        <a class="nav-link text-light mx-3 " href="#">Preguntas frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light mx-3" href="#">Contactanos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light mx-3">Prensa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light mx-3">Conferencias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light mx-3">Terminos y condiciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light mx-3">Privacidad</a>
+      </li>
+      <a class="nav-link active text-light" aria-current="page" href="#">Estudiantes</a>
+    </ul>
+  </footer>
+</body>
+</html>
